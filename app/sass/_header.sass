@@ -1,0 +1,71 @@
+@import "var"
+
+
+
+
+
+.header
+  width: 100%
+  background: $blue
+  padding: 25px 20px 10px
+  display: flex
+  align-items: flex-start
+  &__logo
+    margin-left: 27px
+    margin-top: -6px
+  .hamburger
+    cursor: pointer
+  .search
+    margin-left: auto
+    display: flex
+    align-items: flex-start
+    &__area
+      border: none
+      border-bottom: 1px solid $white
+      background: $blue
+      margin-left: 22px
+      padding-left: 5px
+      width: 84%
+      font-size: 1rem
+      font-family: $roboto-reg
+      padding-bottom: 5px
+      color: $white
+      &:focus
+        outline: none
+  .lang
+    margin-left: 20px
+    a
+      color: $white
+      font-size: 1rem
+      font-family: $roboto-med
+      margin: 0 10px
+      &:hover
+        text-decoration: none
+        color: $light-silver
+  .icons
+    margin-left: auto
+    a
+      font-size: 0.875rem
+      font-family: $roboto-reg
+      opacity: 0.5
+      color: $white
+      margin-right: 30px
+      &:hover
+        opacity: 1
+        text-decoration: none
+    img
+      margin-right: 5px
+      margin-top: -5px
+
+
+
+
+::-webkit-input-placeholder
+  color: $white
+
+
+::-moz-placeholder
+  color: $white
+  opacity: 1
+
+

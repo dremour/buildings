@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #ccc;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="Base" class="cls-1" width="24" height="24"/>
+  <path id="Shape" class="cls-2" d="M10.4,15.111V14.333H4.808L4.8,17.444A1.573,1.573,0,0,0,6.4,19H17.6a1.573,1.573,0,0,0,1.6-1.556V14.333H13.6v0.778H10.4Zm8-7H15.192V6.555L13.592,5h-3.2l-1.6,1.556V8.111H5.6A1.583,1.583,0,0,0,4,9.667V12a1.573,1.573,0,0,0,1.6,1.556h4.8V12h3.2v1.556h4.8A1.583,1.583,0,0,0,20,12V9.667A1.583,1.583,0,0,0,18.4,8.111Zm-4.8,0H10.4V6.555h3.2V8.111Z"/>
+</svg>
