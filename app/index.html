@@ -15,7 +15,7 @@
             <img class="hamburger" src="img/hamburger.svg" alt=""/>
             <a href="index.html"><img class="header__logo" src="img/logo.png" alt="logo"/></a>
             <a href="index.html"><img class="header__logo-mobile" src="img/logo-mobile.png" alt="logo"/></a>
-            <div class="search col-xl-5 col-lg-3 col-sm-5 col-1 order-2 order-sm-1">
+            <div class="search col-xl-4 col-lg-3 col-sm-5 col-1 order-2 order-sm-1">
                 <img class="" src="img/search.svg" alt=""/>
                 <input type="search" class="search__area" placeholder="Search..."/>
             </div>
@@ -32,8 +32,104 @@
         </header>
     </section>
     <section class="row">
-        <div class="info">
+        <div class="info d-flex flex-wrap col-12">
+            <div class="city col-12 col-lg-7"></div>
+            <div class="order-lg-1 order-2 col-12 col-lg-5">
+                <div class="info__less">
+                    <p class="status">solved</p>
+                    <div class="info__button">
+                        <p>less info</p>
+                        <img src="img/drop-up.svg" alt=""/>
+                    </div>
+                </div>
+                <div class="numbers mt-lg-0 mt-3">
+                    <h5>200</h5>
 
+                    <p>People</p>
+                </div>
+                <div class="numbers">
+                    <h5>$ 100 000</h5>
+
+                    <p>Money</p>
+                </div>
+                <div class="numbers">
+                    <h5>14 days</h5>
+
+                    <p>Time</p>
+                </div>
+                <a class="col-12 join" href="#">join</a>
+                <div class="d-flex justify-content-between">
+                    <a class="social " href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i>Share</a>
+                    <a class="social " href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Tweet</a>
+                    <a class="social " href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>Share</a>
+                </div>
+            </div>
+            <div class="posted flex-wrap order-lg-2 order-1">
+                <div class="progress d-flex justify-content-between">
+                    <span>In progress</span>
+                    <span>From 20 Aug 2017</span>
+                </div>
+                <div>
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="infras" src="img/infras.svg" alt=""/>
+                        <h2>a solutions landscape</h2>
+                    </div>
+                    <div class="d-flex">
+                        <span class="posted__data">From 20 Aug 2017</span>
+                        <span class="posted__data"><img src="img/people.svg" alt=""/>430</span>
+                        <span class="posted__data"><img src="img/portf.svg" alt=""/>10</span>
+                        <span class="posted__data"><img src="img/build.svg" alt=""/>6</span>
+                    </div>
+                </div>
+                <div class="d-flex mt-lg-0 mt-3 align-items-center">
+                    <img class="user" src="img/mike.png" alt=""/>
+                    <div class="d-flex flex-column">
+                        <span class="name ">By <strong>Mike Gardner</strong></span>
+                        <span class="about-post">Posted <strong>12</strong> problems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="row">
+        <div class="underline-radio d-flex justify-content-center">
+            <div>
+                <input id="descr" type="radio" name="jumborad" value="descr" checked>
+                <label for="descr">Problem</label>
+            </div>
+            <div>
+                <input id="solution" type="radio" name="jumborad" value="solution">
+                <label for="solution">Solution</label>
+            </div>
+            <div>
+                <input id="comments" type="radio" name="jumborad" value="comments">
+                <label for="comments">Comments</label>
+            </div>
+        </div>
+        <div class="description">
+            <p>It’s that time again when people start thinking about their New Years Resolutions. Usually they involve,
+                losing weight, quitting smoking, and joining a gym, just to mention a few.</p>
+
+            <p>What about you? What News Year Resolution have you planned for this year? Have you considered the
+                benefits of improving your mind? Usually, this is the last thing people consider, but in reality it’s
+                one of the best things you can do for yourself and those around you.</p>
+
+            <p>People who want to build their muscles know that it takes time to
+                work on specific areas in order for the muscles to develop properly
+                and these same people will pay big bucks to join the local gym to work
+                on these areas and yet they forget to invest in things that will enrich their minds.
+            </p>
+            <div class="description__images d-flex">
+                <img class="img-fluid" src="img/img1.jpg" alt=""/>
+                <img class="img-fluid" src="img/img2.jpg" alt=""/>
+                <img class="img-fluid" src="img/img3.jpg" alt=""/>
+                <img class="img-fluid" src="img/img4.jpg" alt=""/>
+                <img class="img-fluid" src="img/img5.jpg" alt=""/>
+            </div>
+            <div class="thumb-wrap">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Y421bWMelqE" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
     </section>
 </div>

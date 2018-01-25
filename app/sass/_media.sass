@@ -8,6 +8,20 @@
     margin: -20px 0 0 60%
   .header__logo
     display: none
+  .city
+    min-height: 250px!important
+  .posted
+    padding-left: 15px!important
+    border-bottom: 2px solid $light-silver
+    padding-bottom: 30px!important
+    h2
+      font-size: 5vw!important
+  .infras
+    width: 6vw!important
+  .description__images
+    img
+      height: 100px
+
 
 @media (min-width: 575px)
   .header__logo-mobile
@@ -16,22 +30,48 @@
     display: inline-block
 
 
-@media (max-width: 991px)
+
+
+
+
+
+@media (max-width: 767px)
+  .lang
+    display: none
+
+@media (max-width: 992px)
   .icons
     display: none
   .drop-down
     display: block
     margin-left: 100px
     margin-top: -5px
-
-@media (max-width: 767px)
-  .lang
+  .info__less
     display: none
-
+  .info
+    padding: 0 0 20px 0
+  .progress
+    width: 100%
+    display: flex
+    margin-bottom: 15px
+    background: $lighter-silver
+    font-family: $roboto-reg
+    span:first-child
+      color: $orange-color
+    span:last-child
+      font-weight: bold
+  .posted
+    padding-top: 10px!important
+    &__data:first-child
+      display: none!important
+  .description
+    padding: 30px 30px
 
 @media (min-width: 992px)
   .drop-down
     display: none
+  .progress
+    display: none!important
 
 
 

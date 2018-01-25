@@ -1,0 +1,46 @@
+@import "var"
+
+.description
+  width: 100%
+  padding: 30px 20%
+  font-family: $roboto-reg
+  &__images
+    padding-top: 30px
+    overflow: hidden
+    img
+      padding: 10px
+
+
+
+.underline-radio
+  font-size: 1rem
+  font-family: $roboto-med
+  margin-bottom: 20px
+  margin-top: 30px
+  width: 100%
+  border-bottom: 2px solid $light-silver
+  input[type=radio]
+    display: none
+    &:checked + label
+      border-bottom: 2px solid $blue
+  & label
+    margin-bottom: 0
+    margin-right: 20px
+    padding: 9px
+    border-bottom: 2px solid transparent
+    &:hover
+      cursor: pointer
+
+.thumb-wrap
+  position: relative
+  padding-bottom: 56.25%
+  padding-top: 30px
+  height: 0
+  overflow: hidden
+
+.thumb-wrap iframe
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%

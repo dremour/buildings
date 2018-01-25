@@ -1,0 +1,92 @@
+@import "var"
+
+.info
+  padding: 25px 17.36%
+  background: $lighter-silver
+  overflow: hidden
+  .city
+    background: url("../img/city.jpg") center
+    background-size: cover
+    min-height: 75%
+  &__less
+    display: flex
+    justify-content: space-between
+    border-bottom: 2px solid $blue
+    margin-bottom: 30px
+    .status
+      text-transform: uppercase
+      font-family: $roboto-reg
+      font-size: 1.25rem
+      margin-bottom: 20px
+  &__button
+    display: flex
+    align-items: flex-start
+    color: $blue
+    text-transform: uppercase
+    font-family: $roboto-reg
+    p
+      margin-bottom: 0
+    &:hover
+      cursor: pointer
+  .numbers
+    font-family: $roboto-reg
+    p
+      font-size: 0.875rem
+  .join
+    width: 100%
+    display: block
+    text-align: center
+    background: $blue
+    color: $white
+    text-transform: uppercase
+    font-family: $roboto-reg
+    padding: 12px 0
+    border-radius: 5px
+    box-shadow: 0 1px 2px  black
+    transition: 0.5s
+    margin-bottom: 15px
+    &:hover
+      text-decoration: none
+      background: $dark-blue
+  .social
+    padding: 10px 10px
+    background: $white
+    border-radius: 5px
+    box-shadow: 0 1px 20px  $light-silver
+    color: $dark-silver
+    font-family: $roboto-med
+    transition: 0.5s
+    &:hover
+      text-decoration: none
+      background: $light-silver
+  .posted
+    width: 100%
+    display: flex
+    justify-content: space-between
+    padding: 40px 15px 0 0
+    h2
+      font-size: 3vw
+      font-family: $roboto-reg
+      text-transform: capitalize
+      margin-bottom: 0
+      margin-left: 15px
+    &__data
+      color: $black
+      font-family: $roboto-med
+      font-size: 0.875rem
+      margin-right: 30px
+      font-weight: bold
+      img
+        margin-right: 15px
+    .user
+      width: 40px
+      margin-right: 10px
+    .name
+      font-family: $roboto-reg
+      font-size: 1.125rem
+    .about-post
+      font-family: $roboto-reg
+      font-size: 0.875rem
+      color: $dark-silver
+    .infras
+      width: 4vw
